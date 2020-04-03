@@ -1311,6 +1311,10 @@ input:focus {
   position: relative;
   z-index: 1;
   text-align: center; }
+  .single-service-area img {
+    width: 90px;
+    margin-left: 10px;
+}
   .single-service-area .service-icon {
     background-color: #e7f2fd;
     width: 145px;
