@@ -223,12 +223,108 @@
     <!-- ***** Services Area End ***** -->
    
     <!-- ***** Form Area Start ***** --> 
+   
      <form>
        <p>
-    Ingresa tu nombre completo: <input type="text" name="nombrecompleto">
-    <input type="submit" value="Enviar la información">
+    Ingrese razón social de la empresa: <input type="text" name="razonsocial">
   </p>
   
+   <p>
+    Ingrese NIT de la empresa (Incluendo código de verificación): <input type="text" name="nit">
+  </p>
+  
+  
+  <p>
+    Número de trabajadores en la empresa:<br>
+    <input type="radio" name="ingresos" value="1a10"> De 1 a 10<br>
+    <input type="radio" name="ingresos" value="11a50"> De 11 a 50<br>
+    <input type="radio" name="ingresos" value="51a250"> De 51 a 250<br>
+    <input type="radio" name="ingresos" value="masde151"> 251 o más 
+  </p>
+  
+   <p>
+    Ingrese el nombre del representante legal: <input type="text" name="nombrereplegal">
+  </p>
+  
+   <p>
+   ¿La persona de contacto es el representante legal?:<br>
+    <input type="radio" name="ingresos" value="si"> SI<br>
+    <input type="radio" name="ingresos" value="no"> NO
+  </p>
+  
+   <p>
+    Si la respuesta a la pregunta anterior fue NO, ¿cuál es el nombre de la persona de contacto?: <input type="text" name="personadecontacto">
+  </p>
+  
+   <p>
+   Adjuntar Cédula de ciudadanía de la persona de contacto, por ambos lados al 150%  <input type="file" />
+  </p>
+  
+   <p>
+    Telefono / Celular de la persona de contacto: <input type="text" name="contacto">
+  </p>
+  
+   <p>
+    Correo electrónico de la persona de contacto: <input type="text" name="correo">
+  </p>
+  
+  <p>
+    Cargo de la persona de contacto: <input type="text" name="cargo">
+  </p>
+  
+   <p>
+   Adjuntar el RUT o Cámara de comercio de la empresa <input type="file" />
+  </p>
+  
+   <p>
+    Lineas de Consultoría deseadas:<br>
+    <input type="checkbox" name="estrategia"> Estrategia de negocio e inteligencia de negocio (Business Intelligence & Analytics)<br>
+    <input type="checkbox" name="operaciones"> Operaciones & Logística (operaciones y logística, manejo de equipo, enrutamiento)<br>
+    <input type="checkbox" name="juridica"> Jurídica (comercial y laboral)<br>
+    <input type="checkbox" name="financiera"> Financiera, Contable y Tributaria<br>
+    <input type="checkbox" name="mercadeo"> Comunicación y Mercadeo (Manejo de Crisis, Reputación, Caridad, RSE)<br>
+    <input type="checkbox" name="tecnologia"> Tecnología y datos (Hardware, software, redes, licencias, equipos, acceso a info)
+  </p>
+  
+   <p>
+    Agregue una breve descipción del problema o solicitud: <input type="text" name="cargo">
+  </p>
+  
+   <p>
+    Su preferencia para ser atendido es en:<br>
+    <input type="radio" name="horario" value="mañana"> La mañana (8am a 12pm)<br>
+    <input type="radio" name="horario" value="tarde"> La tarde (2pm a 6pm)<br>
+     <input type="radio" name="horario" value="noche"> La noche (6pm a 10pm)<br>
+    <input type="radio" name="horario" value="cualquiera"> En cualquier horario (cuando sea requerido)
+  </p>
+  
+  <p>
+     Cuenta con acceso a:<br>
+    <input type="checkbox" name="internet"> Conexión a Internet<br>
+    <input type="checkbox" name="portatil"> Computador portatil<br>
+    <input type="checkbox" name="celular"> Celular<br>
+    <input type="checkbox" name="telefono"> Teléfono fijo
+  </p>
+  
+  <p>
+    ¿Cómo se enteraron de este Voluntariado?<br>
+    <input type="radio" name="medio" value="amigo"> Por medio de un amigo<br>
+    <input type="radio" name="medio" value="colega"> Por medio de un colega<br>
+     <input type="radio" name="medio" value="anuncio"> Por medio de un anuncio en Internet<br>
+     <input type="radio" name="medio" value="vecino"> Por medio de un vecino<br>
+     <input type="radio" name="medio" value="pagina"> Por la página web de la empresa<br>
+     <input type="radio" name="medio" value="google"> Por medio de Google Search<br>
+    <input type="radio" name="medio" value="otro"> Otro
+  </p>
+  
+  
+  
+  
+  
+  <input type="submit" value="Enviar la información">
+  
+   action="../form-result.php" target="_blank">
+  <input type="submit" value="Enviar el formulario">
     </form>
  <!-- ***** Form Area End ***** -->
  
