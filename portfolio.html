@@ -238,14 +238,10 @@
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <input type="text" required="false" class="form-control mb-30" name="otropregradop" placeholder="Otro (si tu programa no está en la lista)">
+                                </div> 
+                                
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input  type="text" required="false" class="form-control mb-30" name="otropregradop" placeholder="Otro (si tu programa no está en la lista)">
-                                    </div>
-                            </div>
-                                </div>
-                            <div class="col-6">
+                            <div class="col-lg-6">
                                 <div class="form-group">
                                     <select name="pregradop"  required="false" class="form-control mb-30" name="pregradoSecundario" >
                                         <option value="Pregrado Principal" disabled selected>Doble Programa</option>
@@ -424,19 +420,65 @@
                                 </div>
                                  <div class="col-lg-3">
                                     <div class="form-group">
-                                        <input type="radio" name="disponibilidad" value="1a4" > <label for="disponibilidad">De 1 a 4</label> 
+                                        <input type="radio" name="disponibilidad" value="5a9" > <label for="disponibilidad">De 5 a 9</label> 
                                     </div>
                                 </div>
                                  <div class="col-lg-3">
                                     <div class="form-group">
-                                        <input type="radio" name="disponibilidad" value="1a4" > <label for="disponibilidad">De 1 a 4</label> 
+                                        <input type="radio" name="disponibilidad" value="10a16" > <label for="disponibilidad">De 10 a 16</label> 
                                     </div>
                                 </div>
                                  <div class="col-lg-3">
                                     <div class="form-group">
-                                        <input type="radio" name="disponibilidad" value="1a4" > <label for="disponibilidad">De 1 a 4</label> 
+                                        <input type="radio" name="disponibilidad" value="17omas" > <label for="disponibilidad">17 o más</label> 
                                     </div>
                                 </div>
+
+                                Tu preferencia para atender casos es en:<br>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                     
+                                        <input type="radio" name="horario" value="mañana" > <label for="disponibilidad">La mañana (8am a 12pm)</label> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <input type="radio" name="horario" value="tarde" > <label for="disponibilidad">La tarde (2pm a 6pm) (</label> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <input type="radio" name="horario" value="noche" > <label for="disponibilidad">La noche (6pm a 10pm)</label> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <input type="radio" name="horario" value="cualquier" > <label for="disponibilidad">En cualquier horario (cuando sea requerido)</label> 
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        Cuentas con acceso a:<br>
+                                        <input type="checkbox" name="internet"> Conexión a Internet<br>
+                                        <input type="checkbox" name="portatil"> Computador portatil<br>
+                                        <input type="checkbox" name="celular"> Celular<br>
+                                        <input type="checkbox" name="telefono"> Teléfono fijo
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        Cómo te enteraste de este voluntariado:<br>
+                                        <input type="checkbox" name="amigo"> Por medio de un amigo<br>
+                                        <input type="checkbox" name="colega"> Por medio de un colega<br>
+                                        <input type="checkbox" name="anuncio"> Por medio de un anuncio en internet<br>
+                                        <input type="checkbox" name="paginaweb"> Por la página web de la empresa<br>
+                                        <input type="checkbox" name="vecino"> Por medio de un vecino<br>
+                                        <input type="checkbox" name="google"> Por medio de Google Search
+                                    </div>
+                                </div>
+                         
+
                            
 
 
@@ -455,79 +497,6 @@
     </div>
 </section>
 <!-- ***** Contact Area End ***** -->
-     <form>
-    
- 
-   
-   <p>
-    Ocupación:<br>
-    
-  </p>
-  
-   <p>
-    Organización (lugar de trabajo): <input type="text" name="organizacion">
-  </p>
-  
-  <p>
-    Ingresa tu cargo: <input type="text" name="cargo">
-  </p>
-  
-    <p>
-    
-  </p>
-  
-  <p>
-   
-  </p>
-  
-   <p>
-  
-  </p>
-  
- 
-
-  
-  <p>
-    Disponibilidad semanal para prestar este servicio (en horas):<br>
-    <input type="radio" name="tiempo" value="4"> 1 a 4<br>
-    <input type="radio" name="tiempo" value="9"> 5 a 9<br>
-     <input type="radio" name="tiempo" value="16"> 10 a 16<br>
-    <input type="radio" name="tiempo" value="17"> 17 o más
-  </p>
-  
-   <p>
-    Tu preferencia para atender casos es en:<br>
-    <input type="radio" name="horario" value="mañana"> La mañana (8am a 12pm)<br>
-    <input type="radio" name="horario" value="tarde"> La tarde (2pm a 6pm)<br>
-     <input type="radio" name="horario" value="noche"> La noche (6pm a 10pm)<br>
-    <input type="radio" name="horario" value="cualquiera"> En cualquier horario (cuando sea requerido)
-  </p>
-  
-  <p>
-     Cuentas con acceso a:<br>
-    <input type="checkbox" name="internet"> Conexión a Internet<br>
-    <input type="checkbox" name="portatil"> Computador portatil<br>
-    <input type="checkbox" name="celular"> Celular<br>
-    <input type="checkbox" name="telefono"> Teléfono fijo
-  </p>
-  
-  <p>
-    ¿Cómo te enteraste de este Voluntariado?<br>
-    <input type="radio" name="medio" value="amigo"> Por medio de un amigo<br>
-    <input type="radio" name="medio" value="colega"> Por medio de un colega<br>
-     <input type="radio" name="medio" value="anuncio"> Por medio de un anuncio en Internet<br>
-     <input type="radio" name="medio" value="vecino"> Por medio de un vecino<br>
-     <input type="radio" name="medio" value="pagina"> Por la página web de la empresa<br>
-     <input type="radio" name="medio" value="google"> Por medio de Google Search<br>
-    <input type="radio" name="medio" value="otro"> Otro
-  </p>
-  
-  
-  <p><input type="submit" value="Enviar información"></p>
-  
-   action="../form-result.php" target="_blank">
-  <input type="submit" value="Enviar el formulario">
-    </form>
  <!-- ***** Form Area End ***** -->
 
     <!-- ****** Gallery Area Start ****** -->
