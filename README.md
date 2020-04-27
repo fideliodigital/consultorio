@@ -69,7 +69,7 @@ uza/
     ├── blog.html
     ├── contact.html
     ├── index.html
-    ├── portfolio.html
+    ├── voluntario.html
     ├── portfolio-single.html
     ├── services.html
     ├── single-blog.html
