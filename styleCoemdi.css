@@ -27,9 +27,18 @@ body
 {
 
 }
-.instrucciones .cuadro li 
+.instrucciones .cuadro li, .instrucciones.empresa > ul li
 {
-    /* list-style: inside; */
+    list-style: none;
+}
+ .instrucciones.empresa > ul li
+{
+    padding-right: 5px
+}
+
+.instrucciones li  i
+{
+    color: #1583e9;
 }
 
 
