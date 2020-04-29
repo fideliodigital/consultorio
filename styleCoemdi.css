@@ -41,7 +41,10 @@ body
     color: #1583e9;
 }
 
-
+.instrucciones .overlayeffect p
+{
+    font-size: 10px;
+}
 
 .instrucciones .cuadro 
 {
