@@ -69,9 +69,9 @@ uza/
     ├── blog.html
     ├── contact.html
     ├── index.html
-    ├── portfolio.html
+    ├── voluntario.html
     ├── portfolio-single.html
-    ├── services.html
+    ├── empresa.html
     ├── single-blog.html
     ├── style.css
     ├── style.css.map
